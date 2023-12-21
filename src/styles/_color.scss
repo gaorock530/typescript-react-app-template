@@ -1,0 +1,9 @@
+main {
+  color: var(--main-light-font-color);
+  background-color: var(--main-light-background-color);
+}
+
+:where(.mode-dark) main {
+  color: var(--main-dark-font-color);
+  background-color: var(--main-dark-background-color);
+}
